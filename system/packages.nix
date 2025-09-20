@@ -2,7 +2,9 @@
   environment.systemPackages = with pkgs; [
     ffmpeg
     nixfmt
+    nil
     gh
+
     git
     pkgs.dotnetCorePackages.sdk_9_0-bin
     ripgrep
